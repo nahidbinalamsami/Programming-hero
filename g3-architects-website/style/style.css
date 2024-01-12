@@ -143,17 +143,40 @@ main{
 }
 
 
+/* features style */
+
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.feature-content .card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.ten-years-badge{
+    border-radius: 8px;
+    color: #fff;
+    background: #ff900e;
+    width: 342px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
 
 
-
-
-
-
-
-
-
-
-
+.ten-years-badge h2{
+    font-size: 4rem;
+    margin: 0;
+}
+.ten-years-badge p{
+    font-size: 1.5rem;
+}
 
 
 
